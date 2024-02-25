@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
 import styles from '../styles/mainheader.module.scss'
-import GifHolder from './GifHolder'
+import GifHolders from './GifHolders'
+import GifHolder from './message/GifHolder'
 import { RoughNotation } from 'react-rough-notation'
 import { useTheme } from 'next-themes'
 
@@ -16,6 +17,10 @@ export function MainHeader() {
   const onLeave = () => {
     setHover(false)
   }
+  function scrollFunction(): void {
+    throw new Error('Function not implemented.')
+  }
+
   return (
     <header className={styles.header}>
       <div className={styles.header__content}>
@@ -26,7 +31,7 @@ export function MainHeader() {
               display: 'block',
             }}
           >
-            Hi,{' '}
+            Hi👋,{' '}
           </span>
           <span
             style={{
@@ -44,7 +49,7 @@ export function MainHeader() {
             onMouseLeave={onLeave}
           >
             <RoughNotation type="underline" show={true} strokeWidth={2} color={'tomato'} iterations={2} animationDelay={500}>
-              Shanmukh
+              Meghadri
             </RoughNotation>
           </span>
           <span
@@ -60,11 +65,11 @@ export function MainHeader() {
               display: 'inline-block',
             }}
           >
-            {hover ? <span>eth</span> : ''}
+            {hover ? <span>🫡</span> : ''}
           </span>
         </h1>
         <h2>
-          I&rsquo;m your friendly neighbourhood{' '}
+          I&rsquo;m your laid-back{' '}
           <RoughNotation
             type="underline"
             show={true}
@@ -72,21 +77,20 @@ export function MainHeader() {
             color={theme === 'light' ? 'blue' : 'lightblue'}
             strokeWidth={2}
           >
-            <span style={{ fontWeight: '500' }}>fullstack developer.</span>
+            <span style={{ fontWeight: '500' }}>fullstack developer💻,</span>
           </RoughNotation>
-          <span
-            style={{
-              display: 'inline-block',
-              marginTop: '10px',
-            }}
-          >
-            this is my personal website where you&rsquo;ll find all my works and the stuff I&rsquo;m currently thinking about.
+          <span style={{ fontWeight: '500' }}>
+            {' '}
+            on a constant quest for tech brilliance. This site is your gateway to my latest projects & musings, or you can say a window to
+            my geeky world.😉
           </span>
+          <br></br>
+          <span style={{ fontWeight: '500' }}>Let's connect and explore the boundless possibilities of tech together. 🚀💼</span>
         </h2>
       </div>
-      <div className={styles.header__gifcontainer}>
+      <div className={`${styles.header__gifcontainer} flex items-center justify-center`}>
         <div className={styles.header__gif}>
-          <GifHolder />
+          <GifHolders />
         </div>
       </div>
     </header>

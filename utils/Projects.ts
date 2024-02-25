@@ -1,18 +1,18 @@
 export const projects = [
   {
-    name: 'Personal Expense Log',
+    name: 'Cloudina',
     descreption:
-      'Personal expense log💰 is an app to see your expense history, sorting, pagination features and help you see what you are buying lately',
+      'Cloudina☁️ is a fullStack personal storage solution for uploading, organizing and accessing your files with enhancement and security, made with next-stack , clerk-auth auth and firebase storage',
     videoSrc: 'https://res.cloudinary.com/dhysgd2qs/video/upload/fl_lossy/v1666876614/screen-capture2_n9s75b.mkv',
-    tags: ['React', 'Typescript', 'PostgreSQL', 'Express', 'Prisma', 'Sass'],
-    links: ['https://github.com/0xHecker/personal-expense-log', 'https://personal-expense-log.vercel.app/login'],
+    tags: ['React', 'Typescript', 'Firebase', 'Next.js', 'clerkauth', 'Tailwindcss'],
+    links: ['https://github.com/hikki78/cloudina', 'https://cloudina.vercel.app/'],
   },
   {
-    name: 'Reddit Clone',
-    descreption: 'Reddit clone has some basic reddit features which is made with bleeding edge stack ',
+    name: 'Navida',
+    descreption: ' ',
     videoSrc: 'https://res.cloudinary.com/dhysgd2qs/video/upload/fl_lossy/v1665771689/screen-capture-2_koyesv.mkv',
     tags: ['Next.js', 'Typescript', 'GraphQL', 'Apollo', 'PostgreSQL', 'Redis', 'TypeORM', 'Express', 'Docker'],
-    links: ['https://github.com/0xHecker/beddit-web', 'https://beddit-lac.vercel.app/'],
+    links: ['https://github.com/hikki78/vidproc', 'https://beddit-lac.vercel.app/'],
   },
   {
     name: 'Fire Blog',

@@ -6,12 +6,11 @@ const matter = require('gray-matter')
 
 async function generate() {
   const feed = new RSS({
-    title: 'Sai Shanmukh',
-    site_url: 'https://www.shanmukh.xyz/',
-    feed_url: 'https://www.shanmukh.xyz/feed.xml',
+    title: 'Meghadri',
+    site_url: 'https://www.megh.dev/',
     language: 'en',
     pubDate: new Date(),
-    copyright: `All rights reserved ${new Date().getFullYear()}, Sai Shanmukh`,
+    copyright: `All rights reserved ${new Date().getFullYear()}, Meghadri Mukherjee`,
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'data', 'blog'))

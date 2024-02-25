@@ -3,25 +3,24 @@ import styles from '../styles/footer.module.scss'
 
 const mainLinks = {
   Home: '/',
-  Blog: '/blog',
+  Blog: '/About Me',
   Projects: '/projects',
 }
 
 const footerLinks = [
   [
     { name: 'Home', url: '/' },
-    { name: 'Blog', url: '/blog' },
+    { name: 'Blog', url: '/About Me' },
     { name: 'Projects', url: '/projects' },
     { name: 'RSS', url: '/feed.xml' },
   ],
   [
-    { name: 'Mail', url: 'mailto:msshanmukh@gmail.com' },
-    { name: 'GitHub', url: 'https://github.com/0xHecker' },
-    { name: 'Twitter', url: 'https://twitter.com/msshanmukh' },
-    { name: 'LinkedIn', url: 'https://linkedin.in/saishanmukhm' },
+    { name: 'Mail', url: 'mailto:meghadrimukherjee680@gmail.com' },
+    { name: 'GitHub', url: 'https://github.com/hikki78' },
+    { name: 'Twitter', url: 'https://twitter.com/hikki_78' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/hikki78/' },
   ],
 ]
-
 export function Footer({}) {
   return (
     <footer className={styles.footer}>
@@ -47,7 +46,7 @@ export function Footer({}) {
         </ul>
       </div>
 
-      <p className={styles.copyright}>&copy; Sai Shanmukh {new Date().getFullYear()}</p>
+      <p className={styles.copyright}> Made with 💖 by Meghadri Mukherjee {new Date().getFullYear()}</p>
     </footer>
   )
 }

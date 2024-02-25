@@ -24,7 +24,7 @@ export const PageHome = ({ children }: PageProps): JSX.Element => (
     <NavBar />
     {children}
     <footer className={styles.footer}>
-      <p className={styles.copyright}>&copy; Sai Shanmukh {new Date().getFullYear()}</p>
+      <p className={styles.copyright}>&copy;{new Date().getFullYear()}</p>
     </footer>
   </>
 )

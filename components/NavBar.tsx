@@ -7,8 +7,8 @@ import styles from '../styles/header.module.scss'
 
 const links = [
   { name: 'Home', path: '/' },
-  { name: 'Blog', path: '/blog' },
-  { name: 'Projects', path: '/projects' },
+  { name: 'About Me', path: '/about-me' },
+  { name: 'Download Resume', path: '/myresume' },
 ]
 
 const NavBar = (): JSX.Element => {
@@ -20,7 +20,8 @@ const NavBar = (): JSX.Element => {
         <div className={styles.container}>
           <Link href="/">
             <a className={styles.logo}>
-              <Image src={avatar} alt="Sai Shanmukh" layout="fixed" width="35" height="50" priority placeholder="blur" />
+              <br />
+              <h2>🅼🅴🅶🅷.</h2>
             </a>
           </Link>
           <nav className={styles.nav}>
