@@ -84,7 +84,7 @@ export function MainHeader() {
             my geeky world.😉
           </span>
           <br></br>
-          <span style={{ fontWeight: '500' }}>Let's connect and explore the boundless possibilities of tech together. 🚀💼</span>
+          <span style={{ fontWeight: '500' }}>Let&apos connect and explore the boundless possibilities of tech together. 🚀💼</span>
         </h2>
       </div>
       <div className={`${styles.header__gifcontainer} flex items-center justify-center`}>
