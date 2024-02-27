@@ -8,7 +8,7 @@ import styles from '../styles/header.module.scss'
 const links = [
   { name: 'Home', path: '/' },
   { name: 'About Me', path: '/about-me' },
-  { name: 'Download Resume', path: '/myresume' },
+  //{ name: 'Download Resume', path: '/myresume'},
 ]
 
 const NavBar = (): JSX.Element => {

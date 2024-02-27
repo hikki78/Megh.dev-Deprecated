@@ -1,24 +1,18 @@
 import { DefaultSeo } from 'next-seo'
 
 const config = {
-  title: 'Sai Shanmukh - FullStack Developer ',
+  title: 'Meghadri Mukherjee',
   description: 'I’m a fullstack developer who loves to create stuff!',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://shanmukh.xyz',
-    site_name: 'Sai Shanmukh',
+    url: 'https://megh.codes',
+    site_name: 'Meghadri',
     images: [
       {
-        url: 'https://shanmukh.com/og.jpg',
         alt: 'Sai Shanmukh',
       },
     ],
-  },
-  twitter: {
-    handle: '@msshanmukh',
-    site: '@msshanmukh',
-    cardType: 'summary_large_image',
   },
 }
 

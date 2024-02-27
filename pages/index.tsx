@@ -14,8 +14,8 @@ import { Footer } from 'components/Footer'
 import { NextSeo } from 'next-seo'
 
 const Home: NextPage = () => {
-  const seoTitle = 'Home | Sai Shanmukh'
-  const seoDesc = 'I am a fullstack js developer and tech enthusiasist'
+  const seoTitle = 'Meghadri Mukherjee'
+  const seoDesc = 'I am a fullstack Developer and tech enthusiasist'
   const parentRef = useRef(null)
 
   const scrollFunction = () => {
