@@ -2,7 +2,6 @@
 import React from 'react'
 import styles from '../styles/mainheader.module.scss'
 import GifHolders from './GifHolders'
-import GifHolder from './message/GifHolder'
 import { RoughNotation } from 'react-rough-notation'
 import { useTheme } from 'next-themes'
 
