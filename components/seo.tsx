@@ -1,7 +1,7 @@
 import { DefaultSeo } from 'next-seo'
 
 const config = {
-  title: 'Meghadri Mukherjee',
+  title: 'Megh.codes',
   description: 'I’m a fullstack developer who loves to create stuff!',
   openGraph: {
     type: 'website',
@@ -10,9 +10,15 @@ const config = {
     site_name: 'Meghadri',
     images: [
       {
-        alt: 'Sai Shanmukh',
+        url: 'https://megh.codes',
+        alt: 'megh',
       },
     ],
+  },
+  twitter: {
+    handle: '@hikki78',
+    site: '@hikki78',
+    cardType: 'summary_large_image',
   },
 }
 
